@@ -155,18 +155,18 @@ Most of online resources need an API key for downloading data. Make sure to get 
 ### Executing the Code
 After installing the necessary packages, open a command prompt (CMD) window. Navigate to the root directory of the project by using the "cd" command. Once you're in the root directory, type the following command:
 
-	```
-	python -m src.ratebite --description
-	```
+   ```
+   python -m src.ratebite --description
+   ```
 	
 Hit enter, and voila! RateBite is up and running, ready to serve you.
 
 #### Help
 You can always search of help by typing:
 
-	```
-	python -m src.ratebite --help
-	```
+   ```
+   python -m src.ratebite --help
+   ```
  
 where you get a list of available flags.
 
@@ -176,9 +176,9 @@ Here are some basic instructions:
 
 * The default CLI command imports data only for the current date without any arguments:
 
-	```
-	python -m src.ratebite
-	```
+   ```
+   python -m src.ratebite
+   ```
 	
 * The CLI command can also accept two arguments, start_date and end_date, for backfilling or re-importing specific dates. Use the flags --start-date or -s and --end-date or -e. Ensure that dates are strictly in the format %Y-%m-%d:
 
@@ -197,13 +197,10 @@ Here are some basic instructions:
 #### Example
 Let's try to download exchange rates for period from 2024-05-25 to 2024-05-28.
 
-	```sh
 	python -m src.ratebite --start-date 2024-05-25 --end-date 2024-05-28
-	```
  
 then the CLI informs us about fetching the data and converting them
 
-	```
 	----- RageBite Initialize -----
 
 
@@ -215,25 +212,19 @@ then the CLI informs us about fetching the data and converting them
 	Fetching data for 2024-05-27 from historical.json.
 	Fetching data for 2024-05-28 from historical.json.
 	Exchange rates for USD to EUR, for each date.
-	```
 	
 Then, the connections with the Database are established via a connector
 
-	```
 	Connections established.
 	Loading data by connector.
-	```
 	
 CLI informs us that any existing dates in database overlapping with fetched are replaced
 
-	```
 	Overwriting existing records for dates: {'2024-05-27', '2024-05-28', '2024-05-24', '2024-05-25', '2024-05-29', '2024-05-26'}.
 	The above are being replaced by the new ones.
-	```
 	
 Next is a table of today's rates
 
-	```
 	---- Today's rates.
 	+-----------------+-------------------+-----------------+
 	| Currency date   | Currency symbol   |   Currency rate |
@@ -253,24 +244,19 @@ Next is a table of today's rates
 	| 2024-05-29      | GIP               |     1.17575     |
 	|     ...         | ...               |     ...         |
 	+-----------------+-------------------+-----------------+
-	```
 	
 And finally, statistics per month for all dates in database
 
-	```
 	---- Some rate statistics per month.
 	+------------+-------------+------------+--------------+
 	|   Min Rate |    Max Rate |   Avg Rate | Month/Year   |
 	|------------+-------------+------------+--------------|
 	|    63882.9 | 1.02803e-05 |    398.555 | May 2024     |
 	+------------+-------------+------------+--------------+
-	```
 	
 At end, cursors and connections close.
 
-	```
 	Cursor closed.
 	Connection closed.
-	```
 
 :no_entry_sign: In case any error occurs, then there is a rollback and transactions are never commited!
