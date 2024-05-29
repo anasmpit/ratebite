@@ -114,6 +114,7 @@ The below are clear instructions for both `pip` and `conda` users on how to inst
 1. Clone the GitHub repository:
    ```sh
    git clone https://github.com/anasmpit/ratebite.git
+   ```
    
 2. Navigate to the repository directory:
    ```sh
@@ -131,3 +132,52 @@ The below are clear instructions for both `pip` and `conda` users on how to inst
    conda env create -f environment.yml
    conda activate myenv
    ```
+
+### Configuration
+RateBite downloads data and stores them to a RDBMS. Here is a (up to date) list of supported systems:
+* PostgreSQL
+* MariaDB
+* SQLite
+
+Make sure to have already installed one of the above with specific credentials. Then pass them to 
+\src\config\db_config.py file.
+
+Most of online resources need an API key for downloading data. Make sure to get one and use it.
+
+### Executing the Code
+After installing the necessary packages, open a command prompt (CMD) window. Navigate to the root directory of the project by using the "cd" command. Once you're in the root directory, type the following command:
+	```sh
+	python -m src.ratebite --description
+	```
+Hit enter, and voila! RateBite is up and running, ready to serve you.
+
+#### Help
+You can always search of help by typing
+	```sh
+	python -m src.ratebite --help
+	```
+where you get a list of available flags.
+
+#### Keep in mind
+
+Here are some basic instructions:
+
+* The default CLI command imports data only for the current date without any arguments:
+	```sh
+	python -m src.ratebite
+	```
+	
+* The CLI command can also accept two arguments, start_date and end_date, for backfilling or re-importing specific dates. Use the flags --start-date or -s and --end-date or -e. Ensure that dates are strictly in the format %Y-%m-%d.
+	```sh
+	python -m src.ratebite --start-date 2024-05-27 --end-date 2024-05-27
+	```
+
+* The --start-date flag can be used alone to download all data from the given date to the current date:
+	```sh
+	python -m src.ratebite --start-date 2024-05-27
+	```
+
+* The --end-date flag cannot be used alone; it must be used in conjunction with --start-date.
+
+#### Example
+Let's try to download exchange rates for period from 2024-05-25 to 2024-05-25.
