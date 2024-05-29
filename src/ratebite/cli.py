@@ -130,6 +130,8 @@ def main(
         None
     """
     current_date = datetime.now().strftime(time_format)
+    typer.echo("\n\n----- RageBite Initialize -----\n\n")
+    typer.echo(f"Fetching online exchange rates at: {current_date}.\n\n")
 
     # Validate and use provided dates
     if start_date and end_date:
