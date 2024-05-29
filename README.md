@@ -28,7 +28,7 @@ A simple project
 ## Structure
 
 Project has the below structure:
-    ```less
+    ```sh
     C:.
     |   enviroment.yml
     |   README.md
