@@ -140,7 +140,7 @@ RateBite downloads data and stores them to a RDBMS. Here is a (up to date) list 
 * SQLite
 
 Make sure to have already installed one of the above with specific credentials. Then pass them to 
-\src\config\db_config.py file.
+[db_config](https://github.com/anasmpit/ratebite/blob/main/src/config/db_config.py) file.
 
 Most of online resources need an API key for downloading data. Make sure to get one and use it.
 
