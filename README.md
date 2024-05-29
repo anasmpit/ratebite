@@ -254,7 +254,7 @@ And finally, statistics per month for all dates in database
 	|    63882.9 | 1.02803e-05 |    398.555 | May 2024     |
 	+------------+-------------+------------+--------------+
 	
-At end, cursors and connections close.
+At the end, cursors and connections close.
 
 	Cursor closed.
 	Connection closed.
