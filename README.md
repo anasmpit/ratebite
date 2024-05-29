@@ -1,98 +1,115 @@
-             ____       _       ____  _ _       
-            |  _ \ __ _| |_ ___| __ )(_) |_ ___ 
-            | |_) / _` | __/ _ \  _ \| | __/ _ \
-            |  _ < (_| | ||  __/ |_) | | ||  __/
-            |_| \_\__,_|\__\___|____/|_|\__\___|
-                                                
-            ⠀⠀⠀⠀⠀⠀⠀⠀⠀⣀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
-            ⠀⠀⠀⠀⠀⠀⢯⠙⠩⠀⡇⠊⠽⢖⠆⠀⠀⠀⠀⠀
-            ⠀⠀⠀⠀⠀⠀⠀⠱⣠⠀⢁⣄⠔⠁⠀⠀⠀⠀⠀⠀
-            ⠀⠀⠀⠀⠀⠀⠀⠀⣷⣶⣾⣾⠀⠀⠀⠀⠀⠀⠀⠀
-            ⠀⠀⠀⠀⠀⠀⢀⡔⠙⠈⢱⡟⣧⠀⠀⠀⠀⠀⠀⠀
-            ⠀⠀⠀⠀⠀⡠⠊⠀⠀⣀⡀⠀⠘⠕⢄⠀⠀⠀⠀⠀
-            ⠀⠀⠀⢀⠞⠀⠀⢀⣠⣿⣧⣀⠀⠀⢄⠱⡀⠀⠀⠀
-            ⠀⠀⡰⠃⠀⠀⢠⣿⠿⣿⡟⢿⣷⡄⠀⠑⢜⢆⠀⠀
-            ⠀⢰⠁⠀⠀⠀⠸⣿⣦⣿⡇⠀⠛⠋⠀⠨⡐⢍⢆⠀
-            ⠀⡇⠀⠀⠀⠀⠀⠙⠻⣿⣿⣿⣦⡀⠀⢀⠨⡒⠙⡄
-            ⢠⠁⡀⠀⠀⠀⣤⡀⠀⣿⡇⢈⣿⡷⠀⠠⢕⠢⠁⡇
-            ⠸⠀⡕⠀⠀⠀⢻⣿⣶⣿⣷⣾⡿⠁⠀⠨⣐⠨⢀⠃
-            ⠀⠣⣩⠘⠀⠀⠀⠈⠙⣿⡏⠁⠀⢀⠠⢁⡂⢉⠎⠀
-            ⠀⠀⠈⠓⠬⢀⣀⠀⠀⠈⠀⠀⠀⢐⣬⠴⠒⠁⠀⠀
-      ⠀⠀⠀⠀⠀⠀⠀       ⠈⠉⠉⠉⠉⠉⠀⠀⠀⠀⠀⠀⠀
+                                                       ____       _       ____  _ _       
+                                                      |  _ \ __ _| |_ ___| __ )(_) |_ ___ 
+                                                      | |_) / _` | __/ _ \  _ \| | __/ _ \
+                                                      |  _ < (_| | ||  __/ |_) | | ||  __/
+                                                      |_| \_\__,_|\__\___|____/|_|\__\___|
+                                                                        
+                                                      ⠀⠀⠀⠀⠀⠀⠀⠀⠀⣀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
+                                                      ⠀⠀⠀⠀⠀⠀⢯⠙⠩⠀⡇⠊⠽⢖⠆⠀⠀⠀⠀⠀
+                                                      ⠀⠀⠀⠀⠀⠀⠀⠱⣠⠀⢁⣄⠔⠁⠀⠀⠀⠀⠀⠀
+                                                      ⠀⠀⠀⠀⠀⠀⠀⠀⣷⣶⣾⣾⠀⠀⠀⠀⠀⠀⠀⠀
+                                                      ⠀⠀⠀⠀⠀⠀⢀⡔⠙⠈⢱⡟⣧⠀⠀⠀⠀⠀⠀⠀
+                                                      ⠀⠀⠀⠀⠀⡠⠊⠀⠀⣀⡀⠀⠘⠕⢄⠀⠀⠀⠀⠀
+                                                      ⠀⠀⠀⢀⠞⠀⠀⢀⣠⣿⣧⣀⠀⠀⢄⠱⡀⠀⠀⠀
+                                                      ⠀⠀⡰⠃⠀⠀⢠⣿⠿⣿⡟⢿⣷⡄⠀⠑⢜⢆⠀⠀
+                                                      ⠀⢰⠁⠀⠀⠀⠸⣿⣦⣿⡇⠀⠛⠋⠀⠨⡐⢍⢆⠀
+                                                      ⠀⡇⠀⠀⠀⠀⠀⠙⠻⣿⣿⣿⣦⡀⠀⢀⠨⡒⠙⡄
+                                                      ⢠⠁⡀⠀⠀⠀⣤⡀⠀⣿⡇⢈⣿⡷⠀⠠⢕⠢⠁⡇
+                                                      ⠸⠀⡕⠀⠀⠀⢻⣿⣶⣿⣷⣾⡿⠁⠀⠨⣐⠨⢀⠃
+                                                      ⠀⠣⣩⠘⠀⠀⠀⠈⠙⣿⡏⠁⠀⢀⠠⢁⡂⢉⠎⠀
+                                                      ⠀⠀⠈⠓⠬⢀⣀⠀⠀⠈⠀⠀⠀⢐⣬⠴⠒⠁⠀⠀
+                                                ⠀⠀⠀⠀⠀⠀⠀       ⠈⠉⠉⠉⠉⠉⠀⠀⠀⠀⠀⠀⠀
 
 
-# RateBite
-:dollar: :euro: :yen: :pound: :moneybag:
+# :chart_with_upwards_trend: **RateBite**: Your Ultimate CLI for Exchange Rate Management :chart_with_downwards_trend:  :dollar: :euro: :yen: :pound: :moneybag:
 
-A simple project
 
-## Structure
+Welcome to RateBite, a powerful and flexible CLI tool designed to streamline your exchange rate data workflows. Whether you're a developer, data scientist, or finance professional, RateBite provides an intuitive interface for downloading, validating, transforming, and managing exchange rate data.
+
+## Introduction
+In today's fast-paced world, where users, investors, scientists, and various professionals need to stay informed and make quick decisions, real-time data monitoring has become indispensable. Whether it's tracking market trends, analyzing investment opportunities, or conducting research, having up-to-date information at your fingertips is crucial.
+
+One area where real-time data monitoring is particularly critical is in currency exchange rates. Fluctuations in exchange rates can have significant impacts on various aspects of our lives, from travel expenses to international trade deals. That's where RateBite comes in.
+
+RateBite is your ultimate CLI tool for exchange rate management. With its powerful features and intuitive interface, RateBite simplifies the process of monitoring and managing exchange rate data. By downloading exchange rate data from online sources and injecting them into a database, RateBite makes real-time monitoring a piece of cake.
+
+
+## :computer: Projet Structure
 
 Project has the below structure:
    ```
-   root:.
-   |   enviroment.yml
-   |   README.md
-   |   requirements.txt
-   |
-   +---ratebite_project
-   |   |   main.py
-   |   |   postgres.sql
-   |   |   __init__.py
-   |   |
-   |   +---config
-   |   |   |   db_config.py
-   |   |   |   __init__.py
-   |   |
-   |   +---db_connections
-   |   |   |   base_db.py
-   |   |   |   load_data.py
-   |   |   |   mariadb_db.py
-   |   |   |   postgres_db.py
-   |   |   |   sqlite_db.py
-   |   |   |   __init__.py
-   |   |
-   |   +---features
-   |   |   |   data_class.py
-   |   |   |   fetch_data.py
-   |   |   |   fetch_data_class.py
-   |   |   |   transform_data.py
-   |   |   |   transform_data_class.py
-   |   |   |   __init__.py
-   |   |
-   |   +---ratebite
-   |   |   |   cli.py
-   |   |   |   __init__.py
-   |   |   |   __main__.py
-   |   |
-   |   +---texts
-   |   |       intro.txt
-   |
-   \---tests
-       |   test_download_rates.py
-       |   __init__.py
+	.
+	└── ratebite:.
+		├── │   enviroment.yml                    # Environment configuration file
+		├── │   LICENCE                           # License file
+		├── │   README.md                         # Project README
+		├── │   requirements.txt                  # Python dependencies file
+		├── |
+		├── +---src                               # Source code directory
+		├── |   |   main.py                       # Main Python script
+		├── |   |   __init__.py                   # Python package initializer
+		├── |   |
+		├── |   +---config                        # Configuration directory
+		├── |   |   |   db_config.py              # Database configuration module
+		├── |   |   |   __init__.py               # Configuration package initializer
+		├── |   |
+		├── |   +---cron                          # Cron job directory
+		├── |   |       cronjob.md                # Cron job markdown file
+		├── |   |
+		├── |   +---data                          # Data directory, in case needed
+		├── |   |
+		├── |   +---db_connections                # Database connections directory
+		├── |   |   |   base_db.py                # Base database module
+		├── |   |   |   load_data.py              # Data loading module
+		├── |   |   |   mariadb_db.py             # MariaDB database module
+		├── |   |   |   postgres_db.py            # PostgreSQL database module
+		├── |   |   |   sqlite_db.py              # SQLite database module
+		├── |   |   |   __init__.py               # Database connections package initializer
+		├── |   |
+		├── |   +---DDL                           # Data Definition Language directory
+		├── |   |       database_entities.sql     # Database entities DDL script
+		├── |   |
+		├── |   +---features                      # Feature modules directory
+		├── |   |   |   data_class.py             # Data class module
+		├── |   |   |   fetch_data_class.py       # Data fetching class module
+		├── |   |   |   transform_data_class.py   # Data transformation class module
+		├── |   |   |   __init__.py               # Features package initializer
+		├── |   |
+		├── |   +---ratebite                      # Ratebite package directory
+		├── |   |   |   cli.py                    # Command-line interface module
+		├── |   |   |   __init__.py               # Ratebite package initializer
+		├── |   |   |   __main__.py               # Main module
+		├── |   |
+		├── |   +---texts                         # Text files directory
+		├── |   |       intro.txt                 # Introduction text file
+		├── |
+		└── \---tests                             # Test directory
+			├── |   test_cli_arguments.py         # CLI arguments test module
+			└── |   __init__.py                   # Test package initializer
    ```
 
-
-## Installation
+## :fire: Getting Started
 
 The below are clear instructions for both `pip` and `conda` users on how to install necessary Python packages for the project.
 
-### Using pip
+### Installation Using pip
 
 1. Clone the GitHub repository:
    ```sh
-   git clone https://github.com/username/repository.git
+   git clone https://github.com/anasmpit/ratebite.git
+   ```
 
 2. Navigate to the repository directory:
    ```sh
    cd repository
+   ```
   
 3. Install the packages using pip:
    ```sh
    pip install -r requirements.txt
+   ```
    
-### Using conda
+### Installation Using conda
 
 1. Clone the GitHub repository:
    ```sh
@@ -101,13 +118,16 @@ The below are clear instructions for both `pip` and `conda` users on how to inst
 2. Navigate to the repository directory:
    ```sh
    cd repository
+   ```
    
 3. Create a conda environment (optional but recommended):
    ```sh
    conda create --name myenv python
    conda activate myenv
+   ```
    
 4. Install the packages via conda environment.yml
    ```sh
    conda env create -f environment.yml
    conda activate myenv
+   ```
