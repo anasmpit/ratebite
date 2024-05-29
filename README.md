@@ -1,24 +1,25 @@
-				       ____       _       ____  _ _       
-				      |  _ \ __ _| |_ ___| __ )(_) |_ ___ 
-				      | |_) / _` | __/ _ \  _ \| | __/ _ \
-				      |  _ < (_| | ||  __/ |_) | | ||  __/
-				      |_| \_\__,_|\__\___|____/|_|\__\___|
-							
-				      ⠀⠀⠀⠀⠀⠀⠀⠀⠀⣀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
-				      ⠀⠀⠀⠀⠀⠀⢯⠙⠩⠀⡇⠊⠽⢖⠆⠀⠀⠀⠀⠀
-				      ⠀⠀⠀⠀⠀⠀⠀⠱⣠⠀⢁⣄⠔⠁⠀⠀⠀⠀⠀⠀
-				      ⠀⠀⠀⠀⠀⠀⠀⠀⣷⣶⣾⣾⠀⠀⠀⠀⠀⠀⠀⠀
-				      ⠀⠀⠀⠀⠀⠀⢀⡔⠙⠈⢱⡟⣧⠀⠀⠀⠀⠀⠀⠀
-				      ⠀⠀⠀⠀⠀⡠⠊⠀⠀⣀⡀⠀⠘⠕⢄⠀⠀⠀⠀⠀
-				      ⠀⠀⠀⢀⠞⠀⠀⢀⣠⣿⣧⣀⠀⠀⢄⠱⡀⠀⠀⠀
-				      ⠀⠀⡰⠃⠀⠀⢠⣿⠿⣿⡟⢿⣷⡄⠀⠑⢜⢆⠀⠀
-				      ⠀⢰⠁⠀⠀⠀⠸⣿⣦⣿⡇⠀⠛⠋⠀⠨⡐⢍⢆⠀
-				      ⠀⡇⠀⠀⠀⠀⠀⠙⠻⣿⣿⣿⣦⡀⠀⢀⠨⡒⠙⡄
-				      ⢠⠁⡀⠀⠀⠀⣤⡀⠀⣿⡇⢈⣿⡷⠀⠠⢕⠢⠁⡇
-				      ⠸⠀⡕⠀⠀⠀⢻⣿⣶⣿⣷⣾⡿⠁⠀⠨⣐⠨⢀⠃
-				      ⠀⠣⣩⠘⠀⠀⠀⠈⠙⣿⡏⠁⠀⢀⠠⢁⡂⢉⠎⠀
-				      ⠀⠀⠈⠓⠬⢀⣀⠀⠀⠈⠀⠀⠀⢐⣬⠴⠒⠁⠀⠀
-				⠀⠀⠀⠀⠀⠀⠀       ⠈⠉⠉⠉⠉⠉⠀⠀⠀⠀⠀⠀⠀
+                                                       ____       _       ____  _ _       
+                                                      |  _ \ __ _| |_ ___| __ )(_) |_ ___ 
+                                                      | |_) / _` | __/ _ \  _ \| | __/ _ \
+                                                      |  _ < (_| | ||  __/ |_) | | ||  __/
+                                                      |_| \_\__,_|\__\___|____/|_|\__\___|
+                                                                        
+                                                      ⠀⠀⠀⠀⠀⠀⠀⠀⠀⣀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
+                                                      ⠀⠀⠀⠀⠀⠀⢯⠙⠩⠀⡇⠊⠽⢖⠆⠀⠀⠀⠀⠀
+                                                      ⠀⠀⠀⠀⠀⠀⠀⠱⣠⠀⢁⣄⠔⠁⠀⠀⠀⠀⠀⠀
+                                                      ⠀⠀⠀⠀⠀⠀⠀⠀⣷⣶⣾⣾⠀⠀⠀⠀⠀⠀⠀⠀
+                                                      ⠀⠀⠀⠀⠀⠀⢀⡔⠙⠈⢱⡟⣧⠀⠀⠀⠀⠀⠀⠀
+                                                      ⠀⠀⠀⠀⠀⡠⠊⠀⠀⣀⡀⠀⠘⠕⢄⠀⠀⠀⠀⠀
+                                                      ⠀⠀⠀⢀⠞⠀⠀⢀⣠⣿⣧⣀⠀⠀⢄⠱⡀⠀⠀⠀
+                                                      ⠀⠀⡰⠃⠀⠀⢠⣿⠿⣿⡟⢿⣷⡄⠀⠑⢜⢆⠀⠀
+                                                      ⠀⢰⠁⠀⠀⠀⠸⣿⣦⣿⡇⠀⠛⠋⠀⠨⡐⢍⢆⠀
+                                                      ⠀⡇⠀⠀⠀⠀⠀⠙⠻⣿⣿⣿⣦⡀⠀⢀⠨⡒⠙⡄
+                                                      ⢠⠁⡀⠀⠀⠀⣤⡀⠀⣿⡇⢈⣿⡷⠀⠠⢕⠢⠁⡇
+                                                      ⠸⠀⡕⠀⠀⠀⢻⣿⣶⣿⣷⣾⡿⠁⠀⠨⣐⠨⢀⠃
+                                                      ⠀⠣⣩⠘⠀⠀⠀⠈⠙⣿⡏⠁⠀⢀⠠⢁⡂⢉⠎⠀
+                                                      ⠀⠀⠈⠓⠬⢀⣀⠀⠀⠈⠀⠀⠀⢐⣬⠴⠒⠁⠀⠀
+                                                ⠀⠀⠀⠀⠀⠀⠀       ⠈⠉⠉⠉⠉⠉⠀⠀⠀⠀⠀⠀⠀
+
 
 # :chart_with_upwards_trend: **RateBite**: Your Ultimate CLI for Exchange Rate Management :chart_with_downwards_trend:  :dollar: :euro: :yen: :pound: :moneybag:
 
@@ -36,6 +37,7 @@ RateBite is your ultimate CLI tool for exchange rate management. With its powerf
 ## :computer: Projet Structure
 
 Project has the below structure:
+
    ```
 	.
 	└── ratebite:.
@@ -94,11 +96,13 @@ The below are clear instructions for both `pip` and `conda` users on how to inst
 ### Installation Using pip
 
 1. Clone the GitHub repository:
+
    ```sh
    git clone https://github.com/anasmpit/ratebite.git
    ```
 
 2. Navigate to the repository directory:
+
    ```sh
    cd repository
    ```
@@ -111,22 +115,26 @@ The below are clear instructions for both `pip` and `conda` users on how to inst
 ### Installation Using conda
 
 1. Clone the GitHub repository:
+
    ```sh
    git clone https://github.com/anasmpit/ratebite.git
    ```
    
 2. Navigate to the repository directory:
+
    ```sh
    cd repository
    ```
    
 3. Create a conda environment (optional but recommended):
+
    ```sh
    conda create --name myenv python
    conda activate myenv
    ```
    
 4. Install the packages via conda environment.yml
+
    ```sh
    conda env create -f environment.yml
    conda activate myenv
@@ -145,13 +153,16 @@ Most of online resources need an API key for downloading data. Make sure to get 
 
 ### Executing the Code
 After installing the necessary packages, open a command prompt (CMD) window. Navigate to the root directory of the project by using the "cd" command. Once you're in the root directory, type the following command:
+
 	```sh
 	python -m src.ratebite --description
 	```
+	
 Hit enter, and voila! RateBite is up and running, ready to serve you.
 
 #### Help
-You can always search of help by typing
+You can always search of help by typing:
+
 	```sh
 	python -m src.ratebite --help
 	```
@@ -162,16 +173,19 @@ where you get a list of available flags.
 Here are some basic instructions:
 
 * The default CLI command imports data only for the current date without any arguments:
+
 	```sh
 	python -m src.ratebite
 	```
 	
-* The CLI command can also accept two arguments, start_date and end_date, for backfilling or re-importing specific dates. Use the flags --start-date or -s and --end-date or -e. Ensure that dates are strictly in the format %Y-%m-%d.
+* The CLI command can also accept two arguments, start_date and end_date, for backfilling or re-importing specific dates. Use the flags --start-date or -s and --end-date or -e. Ensure that dates are strictly in the format %Y-%m-%d:
+
 	```sh
 	python -m src.ratebite --start-date 2024-05-27 --end-date 2024-05-27
 	```
 
 * The --start-date flag can be used alone to download all data from the given date to the current date:
+
 	```sh
 	python -m src.ratebite --start-date 2024-05-27
 	```
@@ -179,4 +193,81 @@ Here are some basic instructions:
 * The --end-date flag cannot be used alone; it must be used in conjunction with --start-date.
 
 #### Example
-Let's try to download exchange rates for period from 2024-05-25 to 2024-05-25.
+Let's try to download exchange rates for period from 2024-05-25 to 2024-05-28.
+
+	```sh
+	python -m src.ratebite --start-date 2024-05-25 --end-date 2024-05-28
+	```
+then the CLI informs us about fetching the data and converting them
+
+	```sh
+	----- RageBite Initialize -----
+
+
+	Fetching online exchange rates at: 2024-05-29.
+
+
+	Fetching data for 2024-05-25 from historical.json.
+	Fetching data for 2024-05-26 from historical.json.
+	Fetching data for 2024-05-27 from historical.json.
+	Fetching data for 2024-05-28 from historical.json.
+	Exchange rates for USD to EUR, for each date.
+	```
+	
+Then, the connections with the Database are established via a connector
+
+	```sh
+	Connections established.
+	Loading data by connector.
+	```
+	
+CLI informs us that any existing dates in database overlapping with fetched are replaced
+
+	```sh
+	Overwriting existing records for dates: {'2024-05-27', '2024-05-28', '2024-05-24', '2024-05-25', '2024-05-29', '2024-05-26'}.
+	The above are being replaced by the new ones.
+	```
+	
+Next is a table of today's rates
+
+	```sh
+	---- Today's rates.
+	+-----------------+-------------------+-----------------+
+	| Currency date   | Currency symbol   |   Currency rate |
+	|-----------------+-------------------+-----------------|
+	| 2024-05-29      | KES               |     0.00707841  |
+	| 2024-05-29      | KGS               |     0.0105197   |
+	| 2024-05-29      | KHR               |     0.000226122 |
+	| 2024-05-29      | KMF               |     0.00204192  |
+	| 2024-05-29      | KPW               |     0.00102743  |
+	| 2024-05-29      | KRW               |     0.000674879 |
+	| 2024-05-29      | KWD               |     3.01288     |
+	| 2024-05-29      | ZAR               |     0.0502364   |
+	| 2024-05-29      | ZMW               |     0.0342564   |
+	| 2024-05-29      | ZWL               |     0.00287169  |
+	| 2024-05-29      | GGP               |     1.17575     |
+	| 2024-05-29      | GHS               |     0.0630553   |
+	| 2024-05-29      | GIP               |     1.17575     |
+	|     ...         | ...               |     ...         |
+	+-----------------+-------------------+-----------------+
+	```
+	
+And finally, statistics per month for all dates in database
+
+	```sh
+	---- Some rate statistics per month.
+	+------------+-------------+------------+--------------+
+	|   Min Rate |    Max Rate |   Avg Rate | Month/Year   |
+	|------------+-------------+------------+--------------|
+	|    63882.9 | 1.02803e-05 |    398.555 | May 2024     |
+	+------------+-------------+------------+--------------+
+	```
+	
+At end, cursors and connections close.
+
+	```sh
+	Cursor closed.
+	Connection closed.
+	```
+
+:no_entry_sign: In case any error occurs, then there is a rollback and transactions are never commited!
