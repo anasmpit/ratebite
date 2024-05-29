@@ -97,18 +97,19 @@ The below are clear instructions for both `pip` and `conda` users on how to inst
 
 1. Clone the GitHub repository:
 
-   ```sh
+   ```
    git clone https://github.com/anasmpit/ratebite.git
    ```
 
 2. Navigate to the repository directory:
 
-   ```sh
+   ```
    cd repository
    ```
   
 3. Install the packages using pip:
-   ```sh
+   
+   ```
    pip install -r requirements.txt
    ```
    
@@ -116,26 +117,26 @@ The below are clear instructions for both `pip` and `conda` users on how to inst
 
 1. Clone the GitHub repository:
 
-   ```sh
+   ```
    git clone https://github.com/anasmpit/ratebite.git
    ```
    
 2. Navigate to the repository directory:
 
-   ```sh
+   ```
    cd repository
    ```
    
 3. Create a conda environment (optional but recommended):
 
-   ```sh
+   ```
    conda create --name myenv python
    conda activate myenv
    ```
    
 4. Install the packages via conda environment.yml
 
-   ```sh
+   ```
    conda env create -f environment.yml
    conda activate myenv
    ```
@@ -154,7 +155,7 @@ Most of online resources need an API key for downloading data. Make sure to get 
 ### Executing the Code
 After installing the necessary packages, open a command prompt (CMD) window. Navigate to the root directory of the project by using the "cd" command. Once you're in the root directory, type the following command:
 
-	```sh
+	```
 	python -m src.ratebite --description
 	```
 	
@@ -163,9 +164,10 @@ Hit enter, and voila! RateBite is up and running, ready to serve you.
 #### Help
 You can always search of help by typing:
 
-	```sh
+	```
 	python -m src.ratebite --help
 	```
+ 
 where you get a list of available flags.
 
 #### Keep in mind
@@ -174,19 +176,19 @@ Here are some basic instructions:
 
 * The default CLI command imports data only for the current date without any arguments:
 
-	```sh
+	```
 	python -m src.ratebite
 	```
 	
 * The CLI command can also accept two arguments, start_date and end_date, for backfilling or re-importing specific dates. Use the flags --start-date or -s and --end-date or -e. Ensure that dates are strictly in the format %Y-%m-%d:
 
-	```sh
+	```
 	python -m src.ratebite --start-date 2024-05-27 --end-date 2024-05-27
 	```
 
 * The --start-date flag can be used alone to download all data from the given date to the current date:
 
-	```sh
+	```
 	python -m src.ratebite --start-date 2024-05-27
 	```
 
@@ -198,9 +200,10 @@ Let's try to download exchange rates for period from 2024-05-25 to 2024-05-28.
 	```sh
 	python -m src.ratebite --start-date 2024-05-25 --end-date 2024-05-28
 	```
+ 
 then the CLI informs us about fetching the data and converting them
 
-	```sh
+	```
 	----- RageBite Initialize -----
 
 
@@ -216,21 +219,21 @@ then the CLI informs us about fetching the data and converting them
 	
 Then, the connections with the Database are established via a connector
 
-	```sh
+	```
 	Connections established.
 	Loading data by connector.
 	```
 	
 CLI informs us that any existing dates in database overlapping with fetched are replaced
 
-	```sh
+	```
 	Overwriting existing records for dates: {'2024-05-27', '2024-05-28', '2024-05-24', '2024-05-25', '2024-05-29', '2024-05-26'}.
 	The above are being replaced by the new ones.
 	```
 	
 Next is a table of today's rates
 
-	```sh
+	```
 	---- Today's rates.
 	+-----------------+-------------------+-----------------+
 	| Currency date   | Currency symbol   |   Currency rate |
@@ -254,7 +257,7 @@ Next is a table of today's rates
 	
 And finally, statistics per month for all dates in database
 
-	```sh
+	```
 	---- Some rate statistics per month.
 	+------------+-------------+------------+--------------+
 	|   Min Rate |    Max Rate |   Avg Rate | Month/Year   |
@@ -265,7 +268,7 @@ And finally, statistics per month for all dates in database
 	
 At end, cursors and connections close.
 
-	```sh
+	```
 	Cursor closed.
 	Connection closed.
 	```
