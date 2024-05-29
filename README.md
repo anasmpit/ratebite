@@ -113,7 +113,7 @@ The below are clear instructions for both `pip` and `conda` users on how to inst
 
 1. Clone the GitHub repository:
    ```sh
-   git clone https://github.com/username/repository.git
+   git clone https://github.com/anasmpit/ratebite.git
    
 2. Navigate to the repository directory:
    ```sh
